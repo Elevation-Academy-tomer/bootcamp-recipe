@@ -1,0 +1,22 @@
+
+.food-container{
+    display: grid;
+    grid-template-columns: repeat(3 , 2fr);
+    height: 100vh;
+    grid-gap: 10px;
+}
+
+.food.item{
+    background-image: url('https://us.123rf.com/450wm/adzicnatasa/adzicnatasa1804/adzicnatasa180400098/99230717-basketball-background-abstract-dark-basketball-background-with-copy-space-.jpg?ver=6');
+    color: white;
+    border-radius: 5px;
+    display: grid;
+    grid-template-areas: 
+    ". n n ."
+    ". j p ."
+    ". i i ."
+    ". t t .";
+}
+
+
+
